@@ -18,7 +18,7 @@ Chenlei Gu<sup>1,2*</sup>, Davide Alessandro Martella<sup>1,2*</sup>, Leor Ariel
 ## Project setup and run
 
 1. Clone this repository (using git clone <REPO_URL>)
-2. Open cmd/shell/terminal and go to project folder: `cd nanoneedle-biopsy`
+2. Open cmd/shell/terminal and go to project folder: `cd Nanoneedle-Lipidomics`
 3. Create a conda environment: `conda env create -f environment.yml`
 4. Activate the conda environment `conda activate nanobiopsy`
 5. Run `python -m analysis.trianb`
