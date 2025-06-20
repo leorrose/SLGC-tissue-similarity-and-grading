@@ -1,8 +1,10 @@
 ![NANOBIOPSY logo](./logo.png)
 
+[Paper](https://doi.org/10.1038/s41565-025-01955-8) | [Data availability](https://doi.org/10.18742/c.7711667) | [Additional source code](https://github.com/ChiappiniLab/Nanoneedle-Lipidomics)
+
 # Nanoneedles Enable Spatiotemporal Lipidomics of Living Tissues
 
-Chenlei Gu<sup>1,2*</sup>, Davide Alessandro Martella<sup>1,2*</sup>, Leor Ariel Rose<sup>3*</sup>, Nadia Rouatbi<sup>4</sup>, Cong Wang<sup>1,2,5</sup>, Alaa Zam<sup>4</sup>, Valeria Caprettini<sup>1,2</sup>, Magnus Jensen<sup>1</sup>, Cathleen Hagemann<sup>1,6</sup>, Andrea Serio<sup>1,6</sup>, Vincenzo Abbate<sup>4</sup>, Khuloud Al-Jamal<sup>4</sup>, Maddy Parsons<sup>7</sup>, Mads S. Bergholt<sup>1</sup>, Paul Brennan<sup>8</sup>, Assaf Zaritsky<sup>3</sup>, Ciro Chiappini<sup>1,2</sup>
+Chenlei Gu<sup>1,2*</sup>, Davide Alessandro Martella<sup>1,2*</sup>, Leor Ariel Rose<sup>3*</sup>, Nadia Rouatbi<sup>4</sup>, Cong Wang<sup>1,2,5</sup>, Alaa Zam<sup>4</sup>, Valeria Caprettini<sup>1,2</sup>, Magnus Jensen<sup>1</sup>, Shiyue Liu<sup>1</sup>, Cathleen Hagemann<sup>1,6</sup>, Siham Memdouh<sup>4</sup>, Andrea Serio<sup>1,6</sup>, Vincenzo Abbate<sup>4</sup>, Khuloud Al-Jamal<sup>4</sup>, Maddy Parsons<sup>7</sup>, Mads S. Bergholt<sup>1</sup>, Paul M. Brennan<sup>8</sup>, Assaf Zaritsky<sup>3</sup>, Ciro Chiappini<sup>1,2</sup>
 
 1. Centre for Craniofacial and Regenerative Biology, King’s College London, SE1 9RT, London, UK.
 2. London Centre for Nanotechnology, King’s College London, WC2R 2LS, London, UK.
@@ -13,7 +15,9 @@ Chenlei Gu<sup>1,2*</sup>, Davide Alessandro Martella<sup>1,2*</sup>, Leor Ariel
 7. Randall Centre for Cell and Molecular Biophysics, King’s College London, London, UK
 8. Translational Neurosurgery, Centre for Clinical Brain Sciences, University of Edinburgh, EH16 4SB, Edinburgh, UK.
 
-*equal author contribution.
+*These authors contributed equally.
+
+Spatial biology provides high-content diagnostic information by mapping the molecular composition of tissues. However, traditional spatial biology approaches typically require non-living samples, limiting temporal analysis. Here, to address this limitation, we present a workflow using porous silicon nanoneedles to repeatedly collect biomolecules from live brain tissues and map lipid distribution through desorption electrospray ionization mass spectrometry imaging. This method preserves the integrity of the original tissue while replicating its spatial molecular profile on the nanoneedle substrate, accurately reflecting lipid distribution and tissue morphology. Machine learning analysis of 23 human glioma biopsies demonstrated that nanoneedle sampling enables the precise classification of disease states. Furthermore, a spatiotemporal analysis of mouse gliomas treated with temozolomide revealed time- and treatment-dependent variations in lipid composition. Our approach enables non-destructive spatiotemporal lipidomics, advancing molecular diagnostics for precision medicine.
 
 ## Project setup and run
 
@@ -177,6 +181,6 @@ Before running the codes you should acquire the data (details in the paper). You
 
 If you use this code, please cite:
 
-> Martella, D. A., Rose, L. A., Rouatbi, N., Gu, C., Caprettini, V., Jensen, M., ... & Chiappini, C. (2023). Nondestructive Spatial Lipidomics for Glioma Classification. bioRxiv, 2023-03
+> Gu, C., Martella, D.A., Rose, L.A. et al. Nanoneedles enable spatiotemporal lipidomics of living tissues. Nat. Nanotechnol. (2025). https://doi.org/10.1038/s41565-025-01955-8
 
 Please contact <leor.rose@gmail.com> or <assafzar@gmail.com> for bugs or questions.
